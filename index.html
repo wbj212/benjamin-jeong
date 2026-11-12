@@ -3,151 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benjamin Jeong | Quantitative Analysis Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <title>Under Maintenance</title>
     <style>
         body {
-            background-color: #0a0a0a; /* Pure professional dark */
-            font-family: 'Inter', sans-serif;
-            color: #d1d5db;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9fafb;
+            color: #111827;
+            text-align: center;
         }
-        .mono { font-family: 'JetBrains Mono', monospace; }
-        
-        /* Clean, sharp borders instead of fuzzy glows */
-        .project-card {
-            background: #111111;
-            border: 1px solid #262626;
-            transition: border-color 0.2s ease, background 0.2s ease;
+        .container {
+            max-width: 600px;
+            padding: 20px;
         }
-        .project-card:hover {
-            border-color: #3b82f6; /* Subtle corporate blue */
-            background: #171717;
-        }
-        
-        .section-divider {
-            height: 1px;
-            background: linear-gradient(90deg, #262626 0%, transparent 100%);
-        }
-
-        /* High-contrast headings */
-        h1, h2, h3 {
-            color: #ffffff;
-            letter-spacing: -0.02em;
-        }
+        h1 { font-size: 2rem; margin-bottom: 10px; }
+        p { font-size: 1.1rem; color: #4b5563; }
     </style>
 </head>
-<body class="antialiased selection:bg-blue-500/30">
-
-    <div class="max-w-5xl mx-auto px-8 py-16">
-        
-        <nav class="flex justify-between items-center mb-24 border-b border-white/5 pb-6">
-            <div class="mono text-[10px] tracking-widest text-slate-500 uppercase">
-                Institutional Data & Risk Architecture // 2026
-            </div>
-            <div class="flex gap-6">
-                <a href="mailto:benjaminwjeong@gmail.com" class="text-[11px] font-semibold hover:text-blue-400 transition-colors">EMAIL</a>
-                <a href="https://linkedin.com/in/benjamin-jeong" target="_blank" class="text-[11px] font-semibold hover:text-blue-400 transition-colors">LINKEDIN</a>
-            </div>
-        </nav>
-
-        <header class="mb-24">
-            <h1 class="text-5xl font-extrabold mb-6 tracking-tight">Benjamin Jeong</h1>
-            <p class="text-lg max-w-3xl leading-relaxed text-slate-400 font-medium">
-                Applied Mathematics & Chemical Engineering // <span class="text-white">University of Minnesota</span>
-            </p>
-            <p class="text-base max-w-2xl mt-4 text-slate-500 leading-relaxed">
-                Specializing in <span class="text-slate-200">stochastic differential equations</span>, systematic risk modeling, and high-integrity data operations. Architecting financial engines designed for scale and mathematical rigor.
-            </p>
-        </header>
-
-        <section>
-            <div class="flex items-center gap-4 mb-10">
-                <h2 class="text-xs font-bold text-white tracking-[0.2em] uppercase">Core Deployments</h2>
-                <div class="section-divider flex-1"></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                
-                <a href="https://wbj212.github.io/fixed-income-engine/" target="_blank" class="project-card p-8 rounded-sm block group">
-                    <div class="flex justify-between items-center mb-6">
-                        <span class="mono text-[10px] text-blue-400 font-bold uppercase tracking-widest">Model_01</span>
-                        <span class="text-[10px] text-slate-600 font-bold uppercase">Fixed_Income</span>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 group-hover:text-blue-400 transition-colors">Fixed Income Risk Engine</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed mb-6">
-                        Discretized Vasicek SDE simulation modeling 10,000 interest rate paths. Quantifying <span class="text-slate-300 italic">Expected Shortfall (CVaR)</span> and 99% VaR for high-duration portfolios.
-                    </p>
-                    <div class="flex gap-4 border-t border-white/5 pt-4">
-                        <span class="mono text-[9px] text-slate-600 font-bold">NUMPY</span>
-                        <span class="mono text-[9px] text-slate-600 font-bold">MONTE_CARLO</span>
-                        <span class="mono text-[9px] text-slate-600 font-bold">SDE_CALIBRATION</span>
-                    </div>
-                </a>
-
-                <a href="https://wbj212.github.io/2syl-neural-dashboard/" target="_blank" class="project-card p-8 rounded-sm block group">
-                    <div class="flex justify-between items-center mb-6">
-                        <span class="mono text-[10px] text-emerald-500 font-bold uppercase tracking-widest">Live_Ops</span>
-                        <span class="text-[10px] text-slate-600 font-bold uppercase">AI_Finance</span>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 group-hover:text-blue-400 transition-colors">2SyL Neural | Founder</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed mb-6">
-                        AI-driven predictive framework serving 50+ clients ($1.5k MRR). Implementing <span class="text-slate-300 italic">LSTM-based outcome distributions</span> to optimize decision-making under uncertainty.
-                    </p>
-                    <div class="flex gap-4 border-t border-white/5 pt-4">
-                        <span class="mono text-[9px] text-slate-600 font-bold">KERAS</span>
-                        <span class="mono text-[9px] text-slate-600 font-bold">AGENTIC_SYSTEMS</span>
-                        <span class="mono text-[9px] text-slate-600 font-bold">MRR_SCALE</span>
-                    </div>
-                </a>
-
-                <a href="https://wbj212.github.io/credit-risk-model/" target="_blank" class="project-card p-8 rounded-sm block group">
-                    <div class="flex justify-between items-center mb-6">
-                        <span class="mono text-[10px] text-blue-400 font-bold uppercase tracking-widest">Model_02</span>
-                        <span class="text-[10px] text-slate-600 font-bold uppercase">Credit_Risk</span>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 group-hover:text-blue-400 transition-colors">Credit Default Prediction</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed mb-6">
-                        XGBoost binary classification for <span class="text-slate-300 italic">Probability of Default (PD)</span> estimation. Integrated with Expected Loss (EL) frameworks for retail banking datasets.
-                    </p>
-                    <div class="flex gap-4 border-t border-white/5 pt-4">
-                        <span class="mono text-[9px] text-slate-600 font-bold">XGBOOST</span>
-                        <span class="mono text-[9px] text-slate-600 font-bold">SQL_PIPELINES</span>
-                        <span class="mono text-[9px] text-slate-600 font-bold">LOSS_FORECASTING</span>
-                    </div>
-                </a>
-
-                <a href="https://wbj212.github.io/Data-Ops-Portfolio-Website/" target="_blank" class="project-card p-8 rounded-sm block group">
-                    <div class="flex justify-between items-center mb-6">
-                        <span class="mono text-[10px] text-blue-400 font-bold uppercase tracking-widest">Ops_01</span>
-                        <span class="text-[10px] text-slate-600 font-bold uppercase">Integrity</span>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 group-hover:text-blue-400 transition-colors">Data-to-Model Integrity</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed mb-6">
-                        Monitoring data drift and schema health for <span class="text-slate-300 italic">high-stakes risk engines</span>. Architecting validation layers to ensure model output reliability.
-                    </p>
-                    <div class="flex gap-4 border-t border-white/5 pt-4">
-                        <span class="mono text-[9px] text-slate-600 font-bold">ETL_VALIDATION</span>
-                        <span class="mono text-[9px] text-slate-600 font-bold">SCHEMA_MONITOR</span>
-                        <span class="mono text-[9px] text-slate-600 font-bold">MODEL_DRIFT</span>
-                    </div>
-                </a>
-            </div>
-        </section>
-
-        <footer class="mt-32 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-            <div class="mono text-[9px] text-slate-600 uppercase tracking-widest">
-                © 2026 BENJAMIN_JEONG // MINNEAPOLIS_MN
-            </div>
-            <div class="flex gap-10">
-                <div class="mono text-[9px] text-slate-600 uppercase tracking-widest">
-                    Asset_Class: Fixed_Income / Credit
-                </div>
-                <div class="mono text-[9px] text-slate-600 uppercase tracking-widest">
-                    Strategy: Systematic_Risk
-                </div>
-            </div>
-        </footer>
+<body>
+    <div class="container">
+        <h1>Undergoing Maintenance</h1>
+        <p>This portfolio is currently being updated. Please check back soon.</p>
     </div>
 </body>
 </html>
